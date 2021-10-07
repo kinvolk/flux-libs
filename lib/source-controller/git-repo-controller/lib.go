@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	api "github.com/fluxcd/source-controller/api/v1beta1"
-	"github.com/kinvolk/fluxlib/lib"
+	"github.com/kinvolk/flux-libs/lib"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
