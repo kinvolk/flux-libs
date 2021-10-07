@@ -43,3 +43,7 @@ func InstallComponent(kubeconfig []byte) error {
 	return nil
 }
 ```
+
+## Contributing
+
+Please observe our [Code of Conduct](./CODE_OF_CONDUCT.md) when participating in this project.
