@@ -47,3 +47,7 @@ func InstallComponent(kubeconfig []byte) error {
 ## Contributing
 
 Please check out the [contributing](./CONTRIBUTING.md) guide, and observe our [Code of Conduct](./CODE_OF_CONDUCT.md) when participating in this project.
+
+## License
+
+ This project is released under the [MIT license](./LICENSE.txt).
