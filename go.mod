@@ -1,4 +1,4 @@
-module github.com/kinvolk/fluxlib
+module github.com/kinvolk/flux-libs
 
 go 1.16
 

@@ -6,14 +6,14 @@ This repository has libraries to interact with Flux related CRDs like HelmReleas
 
 ```go
 import (
-    "fmt"
+	"fmt"
 
-	helmrelease "github.com/kinvolk/fluxlib/lib/helm-release"
-	gitrepocontroller "github.com/kinvolk/fluxlib/lib/source-controller/git-repo-controller"
-	helmrepocontroller "github.com/kinvolk/fluxlib/lib/source-controller/helm-repo-controller"
+	helmrelease "github.com/kinvolk/flux-libs/lib/helm-release"
+	gitrepocontroller "github.com/kinvolk/flux-libs/lib/source-controller/git-repo-controller"
+	helmrepocontroller "github.com/kinvolk/flux-libs/lib/source-controller/helm-repo-controller"
 
-    sourceapi "github.com/fluxcd/source-controller/api/v1beta1"
-    helmreleaseapi "github.com/fluxcd/helm-controller/api/v2beta1"
+	sourceapi "github.com/fluxcd/source-controller/api/v1beta1"
+	helmreleaseapi "github.com/fluxcd/helm-controller/api/v2beta1"
 )
 
 func getHelmRelease() *helmreleaseapi.HelmRelease {}
